@@ -18,7 +18,6 @@ public class APIConsumption {
         catch (IOException | InterruptedException e){
             throw new RuntimeException(e);
         }
-
         return response.body();
     }
 }
